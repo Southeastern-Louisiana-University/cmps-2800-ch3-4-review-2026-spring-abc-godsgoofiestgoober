@@ -33,7 +33,7 @@ public class Gatekeeper
 
         // Rule: Level must be 1, 2, or 3. If not, they are blocked.
 
-        boolean isBlocked = (userClearLevel != 1 || userClearLevel != 2 || userClearLevel != 3);
+        boolean isBlocked = (userClearLevel != 1 || userClearLevel != 2 || userClearLevel != 3); // Note from PM 1/27 - Fix this, doesn't work
         System.out.println("isBlocked is " + isBlocked); // Note by PM - Only for testing purposes
 
         // --- 3. CONTROL FLOW DECISIONS (Chapter 3.3 & 3.13) ---
