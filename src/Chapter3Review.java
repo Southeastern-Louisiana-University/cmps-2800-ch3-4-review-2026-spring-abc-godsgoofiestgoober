@@ -7,6 +7,8 @@ public class Chapter3Review
         Scanner input = new Scanner(System.in);
 
         // --- 1. INPUT & SANITIZATION ---
+        System.out.println("Enter Code (format: pre-num-suffix):");
+        String userCrypto = input.nextLine();
 
         // Remove whitespace from ends (Chapter 4.4)
 
